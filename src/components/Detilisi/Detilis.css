@@ -18,3 +18,15 @@ text-decoration: none;
 .detilis{
     background-color:rgba(16, 155, 233, 1);
 }
+.charge{
+    padding-top: 101px;
+    color: #fff;
+font-family: Mulish;
+font-size: 42px;
+font-weight: 700;
+line-height: 54.4px;
+letter-spacing: 0.003em;
+text-align: left;
+max-width: 712px;
+
+}
