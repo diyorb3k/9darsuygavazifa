@@ -16,6 +16,7 @@ text-decoration: none;
     box-sizing: border-box;
 }
 .titled{
+    padding: 16px;
 font-family: Mulish;
 font-size: 24px;
 font-weight: 700;
@@ -29,6 +30,8 @@ max-width: 296px;
     margin-top: 24px;
 max-width: 296px;
 width: 100%;
+border-radius: 8px;
+padding-bottom: 32px;
 
 }
 .bigoco{
@@ -39,6 +42,7 @@ justify-content: space-between;
 
 }
 .floyd{
+    padding-left: 16px;
     display: flex;
     gap: 26px;
 
@@ -60,4 +64,11 @@ justify-content: space-between;
 }
 .imgp{
     border-radius: 8px;
+    padding: 16px;
+}
+
+.form:hover{
+    transition: 0.3s all ease;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }

@@ -27,8 +27,11 @@ const Postlist = () => {
   }, [relaut])
 
 
-  const card = albom?.map((el) => (
-    <div className="form" key={el.id}>
+  const card = albom?.filter(
+    (user) =>
+      user.body.toLowerCase().includes(query.toLowerCase())
+  )?.map((el) => (
+    <div className="form" key={el.id} >
     <img className='imgp' src={el.url} alt="" />
     <p className='titled'>{el.body.slice(0,95)}</p>
     <div className='floyd'>
@@ -44,6 +47,11 @@ const Postlist = () => {
 
     
     <div className='container'> 
+      <form action="">
+            <input className='inputt' type="text"  placeholder='Searching...' value={query} onChange={(e) => setQuery(e.target.value)}   
+            />
+            
+        </form>
     <div className='bigoco'>
     {card}
     </div>
