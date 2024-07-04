@@ -7,9 +7,9 @@ const Detilis = () => {
       <div className='detilis'>
 <div className='container'>
         <div>
-          <img src={myImage} alt="" />
+          <img className='imgrasim' src={myImage} alt="" />
           <div className="text">
-            
+            <h2 className='id'>id:2</h2>
             <h6 className='charge'>Charge Two Devices at the Same Time With This Magnetic Wireless Charging Dock
             </h6>
           </div>
